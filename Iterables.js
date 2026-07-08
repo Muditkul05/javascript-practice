@@ -1,6 +1,5 @@
 let range = {
     text : "Hello",
-    currentindex : 0,
 };
 range[Symbol.iterator] = function(){
     return{
