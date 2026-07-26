@@ -20,3 +20,5 @@ range[Symbol.iterator] = function(){
 for(let result of range){
     console.log(result)
 }
+let arr = Array.from(result)
+console.log(result)
